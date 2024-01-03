@@ -8,42 +8,26 @@
 2. Os dados estão separados nas seguinte colunas:
    - Business Name -> Nome da empresa contra qual foi feita a reclamação -> Tipo: Texto
    - Industry -> Categoria da empresa -> Tipo: Texto
-   - Complaint Type	-> Tipo de reclamação -> Tipo: Texto
-   - Mediation Start Date	-> Inicio da mediação -> Tipo: Date & Time
-   - Mediation Close Date	-> ->
-Date mediation ended.
-Date & Time
-   - Complaint Result	-> ->
-Outcome of mediation efforts. See Appendix A for further details about complaint results.
-Plain Text
-   - Satisfaction	-> ->
-This section indicates whether the complaint was mediated to the satisfaction of both the business and consumer. See Appendix A for Yes, No, and NA assignments.
-Plain Text
-   - Restitution	-> ->
-Total amount of consumer restitution secured through mediation.
-Plain Text
-   - Business Building	-> ->
-The building number of the business’s address.
-Plain Text
-   - Business Street	-> ->
-The street name of the business’s address.
-Plain Text
-   - Building Address Unit	-> ->
-The unit number of the business’s address (e.g., Apartment/Suite/Other).
-Plain Text
-   - Business City	-> ->
-The city where the business is located.
-Plain Text
-   - Business State	-> ->
+   - Complaint Type -> Tipo de reclamação -> Tipo: Texto
+   - Mediation Start Date -> Inicio da mediação -> Tipo: Date & Time
+   - Mediation Close Date -> Final da mediação -> Tipo: Date & Time
+   - Complaint Result -> Resultado da mediação -> Tipo: Texto
+   - Satisfaction -> Se a mediação foi satisfatória para as partes -> Tipo: Texto
+   - Restitution -> Total de restituição dada através da mediação -> Tipo: Texto
+   - Business Building -> Número do prédio do endereço da empresa -> Tipo: Texto
+   - Business Street -> Nome da rua do endereço da empresa -> Tipo: Texto
+   - Building Address Unit -> Numero da unidade do endereço (apartamento, suite etc) -> Tipo: Texto
+   - Business City -> A cidade onde está localizada a empresa -> Tipo: Texto
+   - Business State -> ->
 The state where the business is located.
 Plain Text
-   - Business Zip	-> ->
+   - Business Zip -> ->
 The zip code where the business is located.
 Plain Text
-   - Complainant Zip	-> ->
+   - Complainant Zip -> ->
 The zip code where the individual who filed the complaint is located.
 Plain Text
    - Longitude	-> ->
 Plain Text
-   - Latitude	-> ->
+   - Latitude -> ->
 Plain Text
