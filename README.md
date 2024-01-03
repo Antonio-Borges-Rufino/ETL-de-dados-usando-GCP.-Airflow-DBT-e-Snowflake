@@ -25,3 +25,4 @@
    - Latitude -> -> Tipo: Texto
 
 # Instalando os recursos no compute engine do GCP
+# Enviando o arquivo CSV para o cloud Storage
