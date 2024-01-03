@@ -18,16 +18,10 @@
    - Business Street -> Nome da rua do endereço da empresa -> Tipo: Texto
    - Building Address Unit -> Numero da unidade do endereço (apartamento, suite etc) -> Tipo: Texto
    - Business City -> A cidade onde está localizada a empresa -> Tipo: Texto
-   - Business State -> ->
-The state where the business is located.
-Plain Text
-   - Business Zip -> ->
-The zip code where the business is located.
-Plain Text
-   - Complainant Zip -> ->
-The zip code where the individual who filed the complaint is located.
-Plain Text
-   - Longitude	-> ->
-Plain Text
-   - Latitude -> ->
-Plain Text
+   - Business State -> O estado onde está localizada a empresa -> Tipo: Texto
+   - Business Zip -> O CEP de onde a empresa está localizada -> Tipo: Texto
+   - Complainant Zip -> O CEP de onde o indivíduo está localizado -> Tipo: Texto
+   - Longitude	-> -> Tipo: Texto
+   - Latitude -> -> Tipo: Texto
+
+# Instalando os recursos no compute engine do GCP
