@@ -24,5 +24,9 @@
    - Longitude	-> -> Tipo: Texto
    - Latitude -> -> Tipo: Texto
 
+# Enviando o arquivo CSV para o cloud storage
+1. Primeiro, crie o projeto que vai ser implementado o pipeline.
+2. Após isso, crie um novo bucket de armazenamento utilizando o cloud storage, para mais informações clique [aqui](https://github.com/Antonio-Borges-Rufino/Build-an-ETL-Pipeline-for-Financial-Data-Analytics-on-GCP-IaC#criando-armazenamento-do-cloud-storage)
+3. a
 # Instalando os recursos no compute engine do GCP
-# Enviando o arquivo CSV para o cloud Storage
+
