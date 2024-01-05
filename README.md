@@ -26,7 +26,10 @@
 
 # Enviando o arquivo CSV para o cloud storage
 1. Primeiro, crie o projeto que vai ser implementado o pipeline.
-2. Após isso, crie um novo bucket de armazenamento utilizando o cloud storage, para mais informações clique [aqui](https://github.com/Antonio-Borges-Rufino/Build-an-ETL-Pipeline-for-Financial-Data-Analytics-on-GCP-IaC#criando-armazenamento-do-cloud-storage)
-3. a
+2. Após isso, crie um novo bucket de armazenamento utilizando o cloud storage, para mais informações clique [aqui](https://github.com/Antonio-Borges-Rufino/Build-an-ETL-Pipeline-for-Financial-Data-Analytics-on-GCP-IaC#criando-armazenamento-do-cloud-storage).
+3. Agora é só enviar o arquivo para o bucket, para isso, clique no bucket recem criado e aperte para fazer upload da imagem.
+4. ![image](https://github.com/Antonio-Borges-Rufino/ETL-de-dados-usando-GCP.-Airflow-DBT-e-Snowflake/assets/86124443/029b2128-0ab8-4bfb-b67c-f8c785b76cff)
+5. Envie o arquivo e pronto.
+
 # Instalando os recursos no compute engine do GCP
 
