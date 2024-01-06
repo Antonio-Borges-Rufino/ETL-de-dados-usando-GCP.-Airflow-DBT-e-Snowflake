@@ -32,4 +32,11 @@
 5. Envie o arquivo e pronto.
 
 # Instalando os recursos no compute engine do GCP
-
+1. Clique [aqui](https://github.com/Antonio-Borges-Rufino/Build-an-ETL-Pipeline-for-Financial-Data-Analytics-on-GCP-IaC#configurando-vm-ubunto-no-gpc-fase-compute-engine) caso queira entender como habilitar e criar uma instancia VM no GCP.
+2. Com a instância VM criada, podemos nos conectar via SSH pelo navegador, e lá vamos fazer as instalações.
+3. Vamos primeiro dar um apt-get update para atualizar o repositório.
+```
+sudo apt-get update
+```
+4. Agora vou instalar o airflow, o padrão idela é cosntruir toda aplicação fora do super usuário, mas para facilitar, vou escrever ela toda no super usuário mesmo.
+5. Existe algumas configurações interessantes para o airflow, como usar outros bancos de dados para a sua metastore, mas eu vou deixar com o banco de dados normal do airflow.
