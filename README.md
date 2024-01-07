@@ -40,3 +40,21 @@ sudo apt-get update
 ```
 4. Agora vou instalar o airflow, o padrão idela é cosntruir toda aplicação fora do super usuário, mas para facilitar, vou escrever ela toda no super usuário mesmo.
 5. Existe algumas configurações interessantes para o airflow, como usar outros bancos de dados para a sua metastore, mas eu vou deixar com o banco de dados normal do airflow.
+6. Vamos criar uma pasta no diretório central chamada airflow.
+```
+mkdir airflow
+````
+7. Agora vamos criar uma variavel global que aponte para essa pasta.
+```
+export AIRFLOW_HOME=~/airflow
+```
+8. Crie um ambiente virtual na pasta airflow e entre nele.
+9. Agora instalamos a biblioteca
+```
+pip install "apache-airflow[celery]==2.8.0" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.8.0/constraints-3.8.txt"
+```
+10. Podemos executar o airflow usando o comando:
+```
+airflow standalone
+```
+11. Esse comando é apenas para ambientes de teste, não sendo considerado para produção.
