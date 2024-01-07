@@ -62,4 +62,7 @@ airflow standalone
 ```
 gcloud compute --project="xxxxx" firewall-rules create "xxxxx" --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=all --source-ranges=0.0.0.0/0
 ```
-13. a
+13. Você pode criar um usuário e iniciar o serviço com airflow webserver -p XXX, mas no meu caso vou ficar apenas com essa execução mesmo.
+14. Acesse o seu webserver airflow pela porta 8080 e deve ter essa aparência:
+![image](https://github.com/Antonio-Borges-Rufino/ETL-de-dados-usando-GCP.-Airflow-DBT-e-Snowflake/assets/86124443/222baa98-3ec7-4b4f-843a-f712e11e7e8b)
+15. A
