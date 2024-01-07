@@ -58,3 +58,8 @@ pip install "apache-airflow[celery]==2.8.0" --constraint "https://raw.githubuser
 airflow standalone
 ```
 11. Esse comando é apenas para ambientes de teste, não sendo considerado para produção.
+12. Caso não consiga acessar o nifi, libere todas as portas usando o google cloud shell
+```
+gcloud compute --project="xxxxx" firewall-rules create "xxxxx" --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=all --source-ranges=0.0.0.0/0
+```
+13. a
